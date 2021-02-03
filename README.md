@@ -1,9 +1,11 @@
 # Compiler
 
 Task 1
+
 Lexer. Takes a string containing a program. The lexer tokensises the string and outputs an array of tokens.
 
 Task 2
+
 Parser. Takes array of tokens and creates an AST. Also performs error checking against CFG:
 
       BLOCK → { ENE }
