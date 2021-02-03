@@ -6,7 +6,7 @@ Lexer. Takes a string containing a program. The lexer tokensises the string and 
 Task 2
 Parser. Takes array of tokens and creates an AST. Also performs error checking against CFG:
 
-      BLOCK →	{ ENE }
+      BLOCK → { ENE }
       ENE →	E | E; ENE
       E →	INT
         |	skip
@@ -14,4 +14,5 @@ Parser. Takes array of tokens and creates an AST. Also performs error checking a
       INT →	(an integer)
      
 Task 3
+
 Code generator. Takes an AST as input and generates RISC-V code for the given AST prograM. Outputs string containg RISC-V code.
