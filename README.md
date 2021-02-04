@@ -1,5 +1,7 @@
 # Compiler
 
+Overall received 78/100 on this coursework, for module "Compilers and Computer Architecture". 
+
 Task 1
 
 Lexer. Takes a string containing a program. The lexer tokensises the string and outputs an array of tokens.
@@ -18,3 +20,5 @@ Parser. Takes array of tokens and creates an AST. Also performs error checking a
 Task 3
 
 Code generator. Takes an AST as input and generates RISC-V code for the given AST prograM. Outputs string containg RISC-V code.
+
+
